@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		15260DF929DB597C007A9359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15260DF829DB597C007A9359 /* AppDelegate.swift */; };
 		15260DFB29DB597C007A9359 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15260DFA29DB597C007A9359 /* SceneDelegate.swift */; };
-		15260DFD29DB597C007A9359 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15260DFC29DB597C007A9359 /* ViewController.swift */; };
+		15260DFD29DB597C007A9359 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15260DFC29DB597C007A9359 /* ThemeViewController.swift */; };
 		15260E0029DB597C007A9359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15260DFE29DB597C007A9359 /* Main.storyboard */; };
 		15260E0229DB597E007A9359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15260E0129DB597E007A9359 /* Assets.xcassets */; };
 		15260E0529DB597E007A9359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15260E0329DB597E007A9359 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		15260DF529DB597C007A9359 /* DarkTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15260DF829DB597C007A9359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15260DFA29DB597C007A9359 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		15260DFC29DB597C007A9359 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15260DFC29DB597C007A9359 /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
 		15260DFF29DB597C007A9359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15260E0129DB597E007A9359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15260E0429DB597E007A9359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,13 +58,21 @@
 			children = (
 				15260DF829DB597C007A9359 /* AppDelegate.swift */,
 				15260DFA29DB597C007A9359 /* SceneDelegate.swift */,
-				15260DFC29DB597C007A9359 /* ViewController.swift */,
-				15260DFE29DB597C007A9359 /* Main.storyboard */,
+				15260DFC29DB597C007A9359 /* ThemeViewController.swift */,
+				15B5A4BE29E6D21000CBEF1A /* view */,
 				15260E0129DB597E007A9359 /* Assets.xcassets */,
-				15260E0329DB597E007A9359 /* LaunchScreen.storyboard */,
 				15260E0629DB597E007A9359 /* Info.plist */,
 			);
 			path = DarkTheme;
+			sourceTree = "<group>";
+		};
+		15B5A4BE29E6D21000CBEF1A /* view */ = {
+			isa = PBXGroup;
+			children = (
+				15260DFE29DB597C007A9359 /* Main.storyboard */,
+				15260E0329DB597E007A9359 /* LaunchScreen.storyboard */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15260DFD29DB597C007A9359 /* ViewController.swift in Sources */,
+				15260DFD29DB597C007A9359 /* ThemeViewController.swift in Sources */,
 				15260DF929DB597C007A9359 /* AppDelegate.swift in Sources */,
 				15260DFB29DB597C007A9359 /* SceneDelegate.swift in Sources */,
 			);
